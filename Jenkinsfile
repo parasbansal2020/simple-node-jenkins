@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Clone') {
             steps {
-                git 'https://github.com/parasbansal2020/paras-calculator/tree/ae33d283e159142bb7561131ed722dd8006eedd9/Day-1'
+                git 'https://github.com/parasbansal2020/simple-node-jenkins.git'
                 
             }
         }
